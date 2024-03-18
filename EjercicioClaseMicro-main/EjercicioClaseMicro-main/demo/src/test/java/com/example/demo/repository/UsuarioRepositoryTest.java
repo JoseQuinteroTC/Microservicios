@@ -19,7 +19,7 @@ public class UsuarioRepositoryTest {
 
     @Autowired
     private UsuarioRepository usuarioRepository;
-
+a
     @BeforeEach
     void setUp() {
         usuarioRepository.deleteAll();
