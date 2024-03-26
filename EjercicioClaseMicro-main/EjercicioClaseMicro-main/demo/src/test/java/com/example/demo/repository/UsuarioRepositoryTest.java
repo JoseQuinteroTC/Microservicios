@@ -19,7 +19,7 @@ public class UsuarioRepositoryTest {
 
     @Autowired
     private UsuarioRepository usuarioRepository;
-    
+
     @BeforeEach
     void setUp() {
         usuarioRepository.deleteAll();
@@ -27,7 +27,7 @@ public class UsuarioRepositoryTest {
 
     private Usuario initTestUser() {
         Usuario usuario = Usuario.builder()
-                .nombre("Jose")
+                .nombre("Jose Tomas")
                 .apellido("Quintero Cuello")
                 .edad(20)
                 .password("1234")
